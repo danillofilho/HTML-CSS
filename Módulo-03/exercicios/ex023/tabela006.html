@@ -25,8 +25,13 @@
             padding: 10px;
         }
 
-        tr:ntd-child(even) {
-            background-color: rgb (228, 228, 228);
+        tr:nth-child(even) {
+            background-color: rgb(228, 228, 228);
+        }
+
+        div#container {
+            /*width: 50vw;*/
+            overflow-x: auto;
         }
     </style>
 
@@ -34,30 +39,106 @@
 <body>
     <h1>Tabelas em telas Responsivas</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora delectus dignissimos natus dolor laboriosam voluptate, quos, consequuntur ullam, autem ipsam impedit quia. Sunt praesentium labore adipisci, laborum molestias cupiditate est.</p>
-    <table>
-        <caption>Tabelas Responsivas</caption>
 
-        <thead>
-            <tr>
-                <th>Produto</th>
-                <th>Jan</th>
-                <th>Fev</th>
-                <th>Mar</th>
-                <th>Abr</th>
-                <th>Mai</th>
-                <th>Jun</th>
-                <th>Jul</th>
-                <th>Ago</th>
-                <th>Set</th>
-                <th>Out</th>
-                <th>Nov</th>
-                <th>Dez</th>
-            </tr>
-        </thead>
+    <div id="container">
+        <table>
+            <caption>Tabelas Responsivas</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TV 40"</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Home Theater</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Samsung Galaxy S20</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>iPad Mini</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>PlayStation 4</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-        <tbody>
-            
-        </tbody>
-    </table>
 </body>
 </html>
